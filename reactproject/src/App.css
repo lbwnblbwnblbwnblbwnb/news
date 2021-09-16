@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  float: left;
+}
+.Head{
+  background-color: #fff;
+  display: flex;
+  /* 弹性盒对齐 */
+  align-items:center ;
+  justify-content:space-between;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu{
+  padding: 0;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.inputBox{
+background-color: red;
+display: inline;  
+}
+
+.SubMenu{
+margin-left: 50px;
+}
+
+.item{
+float: left;
+width: 500px;
+}
+.btn{
+  width: 200px;
+  text-align: left;
+  color:#808080;
+}
+.Image{
+  width: 50px;
+  height: 50px;
+}
+.layout{
+  height: 380px;
+  background-color: black;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+text-align: center;
+}
+
+.ant-menu-item-group-title{
+  font-weight: bolder;
+  color: black;
+  font-size: 15px;
+}
+.business{
+  align-items:center;
+  justify-content:center;
+text-align: center;
+padding-top: 30px;
+}
+.business h1{
+  font-weight: bolder;
+  font-size: 30px;
+}
+.ant-tabs-nav-wrap{
+  justify-content:center;
+  text-align: center;
+}
+.ant-tabs-tabpane{
+display: flex;
+align-items:center;
+justify-content:space-between;
+
+}
+.ant-tabs-tabpane div{
+  width: 20%;
+  height: 100px;
+  background-color: #fff;
+margin: 0 50px;
+}
+.ant-tabs-tabpane div p{
+  font-size: 10px;
+padding-top: 20px;
+color: #808080;
+}
+.ant-tabs-tabpane div span{
+  font-size: 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
